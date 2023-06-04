@@ -1,4 +1,4 @@
 const solution = (num, k) => {
-    let arr = num.toString().split('')
-    return arr.includes(k.toString()) ? arr.indexOf(k.toString()) + 1 : -1
+    let arr = num.toString().split('').map((el) => Number(el))
+    return arr.indexOf(k) + 1 || - 1
 }
