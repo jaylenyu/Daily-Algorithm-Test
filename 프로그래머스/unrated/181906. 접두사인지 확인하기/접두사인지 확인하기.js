@@ -1,0 +1,1 @@
+const solution = (str, fix) => str.startsWith(fix) ? 1 : 0
