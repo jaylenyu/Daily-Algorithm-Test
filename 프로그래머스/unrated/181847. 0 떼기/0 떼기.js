@@ -1,1 +1,1 @@
-const solution = (str) => Number(str).toString()
+const solution = (str) => String(Number(str))
