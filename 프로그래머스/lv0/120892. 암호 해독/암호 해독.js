@@ -1,7 +1,7 @@
 const solution = (cipher, code) => {
-    let arr = [];
+    let answer = "";
     for (let i = code - 1; i < cipher.length; i += code) {
-        arr.push(cipher[i])
+        answer += cipher[i]
     } 
-    return arr.join("")
+    return answer
 }
