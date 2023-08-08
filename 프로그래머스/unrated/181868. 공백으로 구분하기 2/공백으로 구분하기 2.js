@@ -1,3 +1,3 @@
 const solution = (str) => {
-    return str.trim().split(' ').filter((word) => word.length > 0)
+    return str.split(' ').filter((word) => word.length > 0)
 }
