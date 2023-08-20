@@ -1,7 +1,7 @@
 const solution = (n, control) => {
     let result = n;
     for (let i = 0; i < control.length; i++) {
-        switch (control.charAt(i)) {
+        switch (control[i]) {
             case "w" :
                 result++;
                 break;
