@@ -1,8 +1,7 @@
-const solution = (arr, intervals) => {
-    let answer = [arr.slice(intervals[0][0],intervals[0][1] + 1)];
+const solution = (arr, int) => {
     let result = [];
-    for (let i = 0; i < intervals.length; i++) {
-        result.push(arr.slice(intervals[i][0], intervals[i][1] + 1))
+    for (let i = 0; i < int.length; i++) {
+        result.push(arr.slice(int[i][0], int[i][1] + 1))
     }
     return result.flat()
 }
